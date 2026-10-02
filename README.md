@@ -21,7 +21,7 @@
 Makes the peaceful Yakow farm animals killable and protected by Krimzon law. Striking a Yakow immediately triggers a Krimzon Guard alert ("Hands off the cow!"), while defeating it drops dark eco pills with authentic death VFX.
 
 - **Target Game:** Jak 2
-- **Active Branch:** `jak2/features/yakow_killable`
+- **Repository:** [`whozghiar/jak2-mod-killable-yakow`](https://github.com/whozghiar/jak2-mod-killable-yakow)
 
 ## ✨ Key Features
 - **Feature:** Yakows are now vulnerable and killable, taking damage from player attacks.
@@ -104,7 +104,7 @@ For the complete technical breakdown, architecture, and developer notes, refer t
 Rend les Yakows pacifiques de la ferme vulnérables et protégés par la loi Krimzon. Frapper un Yakow déclenche immédiatement une alerte des Gardes Krimzon ("Touche pas à la vache !"), tandis que l'éliminer fait apparaître des pilules d'éco noire avec des effets visuels de dissolution violette.
 
 - **Jeu Ciblé :** Jak 2
-- **Branche Active :** `jak2/features/yakow_killable`
+- **Dépôt :** [`whozghiar/jak2-mod-killable-yakow`](https://github.com/whozghiar/jak2-mod-killable-yakow)
 
 ## ✨ Fonctionnalités Clés
 - **Fonctionnalité :** Les Yakows sont vulnérables et peuvent être vaincus par les attaques du joueur.

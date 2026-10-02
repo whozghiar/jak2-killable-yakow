@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
   "sourceName": "Killable Yakow Source",
-  "lastUpdated": "2026-10-02T14:17:11Z",
+  "lastUpdated": "2026-10-02T22:58:43Z",
   "mods": {
     "killable-yakow": {
       "displayName": "Killable Yakow",
-      "description": "Makes the peaceful Yakow farm animals killable and protected by Krimzon law. Striking a Yakow immediately triggers a Krimzon Guard alert (\"Hands off the cow!\"), while defeating it drops dark eco pills with authentic death VFX.",
+      "description": "This mod for Jak II makes the peaceful Yakows on the farm vulnerable to damage and places them under the direct protection of law enforcement. Striking one of these animals instantly triggers a Level 1 alert from the Krimzon Guard, while killing one is accompanied by a purple dissolution visual effect and releases six Black Eco pills",
       "authors": [
         "whozghiar"
       ],
@@ -20,17 +20,17 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishedDate": "2026-09-18T02:05:20Z",
+          "publishedDate": "2026-10-02T22:58:43Z",
           "supportedGames": [
             "jak2"
           ],
           "assets": {
-            "windows": "https://github.com/whozghiar/jak-project/releases/download/killable_yakow-v1.0.0/windows-killable_yakow-v1.0.0.zip",
-            "linux": "https://github.com/whozghiar/jak-project/releases/download/killable_yakow-v1.0.0/linux-killable_yakow-v1.0.0.zip"
+            "windows": "https://github.com/whozghiar/jak2-mod-killable-yakow/releases/download/killable-yakow-v1.0.0/windows-killable-yakow-v1.0.0.zip",
+            "linux": "https://github.com/whozghiar/jak2-mod-killable-yakow/releases/download/killable-yakow-v1.0.0/linux-killable-yakow-v1.0.0.zip"
           },
           "checksums": {
-            "windows": "53e4bc15c781b622592a794a709732e68193b656bd9cf318e8ff9f277c94348d",
-            "linux": "90ffa30539accb96dd7ccbd3ae4ed303916c6c52a57dd2ed3653abc6f1bcdb6b"
+            "windows": "e6f576b95f357fb53bf7b7f9e99f5ef501dc05de6c64536f1f32d82bf62b3b10",
+            "linux": "48dbee441e9726954db526f04e8a05dbd52ad4e8a680d8d65b6ea068015ce175"
           }
         }
       ],

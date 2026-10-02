@@ -1,4 +1,4 @@
-# Interactive & Vulnerable Yakows / Yakows Interactifs et Vulnérables
+# Interactive & Vulnerable Yakows
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenGOAL-Mod-blue.svg" alt="OpenGOAL Mod">
@@ -6,13 +6,7 @@
   <img src="https://img.shields.io/badge/AI--assisted-Modding-purple.svg" alt="AI Assisted">
 </p>
 
-<p align="center">
-  <a href="#-english-version"><b>🇬🇧 English Version</b></a> &nbsp;•&nbsp; <a href="#-version-française"><b>🇫🇷 Version Française</b></a>
-</p>
-
 ---
-
-# 🇬🇧 English Version
 
 > [!NOTE]
 > This mod moved from the `jak2/features/killable_yakow` branch of [whozghiar/jak-project](https://github.com/whozghiar/jak-project) to this repository. Earlier releases stay installable from the launcher catalog.
@@ -94,84 +88,4 @@ Mods ▸ yakow-killable ▸ Enable
 
 ## 📖 Technical Documentation
 For the complete technical breakdown, architecture, and developer notes, refer to:
-- 📄 [`docs/modding/current_mod/yakow_killable_readme.md`](docs/modding/current_mod/yakow_killable_readme.md)
-
----
-
-# 🇫🇷 Version Française
-
-## 📖 Présentation du Mod
-Rend les Yakows pacifiques de la ferme vulnérables et protégés par la loi Krimzon. Frapper un Yakow déclenche immédiatement une alerte des Gardes Krimzon ("Touche pas à la vache !"), tandis que l'éliminer fait apparaître des pilules d'éco noire avec des effets visuels de dissolution violette.
-
-- **Jeu Ciblé :** Jak 2
-- **Dépôt :** [`whozghiar/jak2-mod-killable-yakow`](https://github.com/whozghiar/jak2-mod-killable-yakow)
-
-## ✨ Fonctionnalités Clés
-- **Fonctionnalité :** Les Yakows sont vulnérables et peuvent être vaincus par les attaques du joueur.
-- **Fonctionnalité :** Frapper un Yakow déclenche instantanément l'Alerte Niveau 1 des Krimzon Guards.
-- **Fonctionnalité :** Effet visuel de dissolution violette et chute de 6 pilules d'éco noire à leur défaite.
-
-## 📥 Téléchargement & Installation via OpenGOAL Launcher (Joueurs)
-
-> [!TIP]
-> **Aucun environnement de compilation requis !** Vous pouvez installer et jouer à ce mod directement depuis l'OpenGOAL Launcher officiel :
-
-### Option A — Ajouter une Source de Mod Personnalisée (Recommandé)
-1. Dans l'**OpenGOAL Launcher**, rendez-vous dans **Settings ▸ Mods ▸ Add Custom Mod Source**.
-2. Collez l'URL suivante pointant vers le catalogue du mod :
-   ```text
-   https://raw.githubusercontent.com/whozghiar/jak-project/jak2/features/yakow_killable/index.json
-   ```
-3. Allez dans l'onglet **Mods**, sélectionnez **Interactive & Vulnerable Yakows** et cliquez sur **Install**.
-4. Fournissez votre ISO PS2 de Jak II propre lorsque demandé. Le launcher s'occupe de tout !
-
-### Option B — Installation Manuelle depuis les Releases GitHub
-1. Téléchargez l'archive correspondant à votre OS dans l'onglet [Releases](https://github.com/whozghiar/jak-project/releases) (`windows-v*.zip` ou `linux-v*.zip`).
-2. Décompressez l'archive dans le répertoire des mods de votre OpenGOAL Launcher :
-   - **Windows :** `%APPDATA%\OpenGOAL-Launcher\features\jak2\mods\_local\yakow_killable\`
-   - **Linux :** `~/.config/OpenGOAL-Launcher/features/jak2/mods/_local/yakow_killable/`
-3. Lancez le jeu directement depuis le launcher.
-
----
-
-## 🛠️ Guide Développeur & Compilation Locale
-
-### 1. Sélectionner le Jeu Actif
-Assurez-vous que l'environnement cible Jak 2 :
-```bash
-task set-game-jak2
-```
-
-### 2. Compilation des Binaires
-- **Statut :** Layer 3 (GOAL uniquement) — Non requise si les binaires existent déjà
-- **Détails :** Seuls les scripts GOAL sont modifiés. En cas de premier build machine :
-```bash
-task build-release-game
-```
-
-### 3. Extraction des Données (Assets)
-- **Statut :** Extraction standard suffisante (une seule fois à l'installation)
-```bash
-task extract
-```
-
-### 4. Lancer le Jeu
-```bash
-task boot-game
-```
-
-### 5. Activer le Mod (DÉSACTIVÉ par défaut)
-Ce mod est livré **désactivé** — une installation neuve conserve les Yakows de la ferme invulnérables comme dans le jeu d'origine. Ouvrez le menu Mods en jeu avec **L3 + SELECT** (fonctionne en boot retail, sans mode debug) :
-```text
-Mods ▸ yakow-killable ▸ Enable
-```
-
-## 🎥 Encart Vidéo Démonstrative
-
-[![Vidéo de Démonstration](https://img.youtube.com/vi/njKxjCuEpcU/maxresdefault.jpg)](https://youtu.be/njKxjCuEpcU)
-
-▶️ **[Visionner la vidéo de démonstration sur YouTube](https://youtu.be/njKxjCuEpcU)**
-
-## 📖 Documentation Technique
-Pour l'audit technique approfondi, l'architecture et les détails d'implémentation, consultez :
 - 📄 [`docs/modding/current_mod/yakow_killable_readme.md`](docs/modding/current_mod/yakow_killable_readme.md)

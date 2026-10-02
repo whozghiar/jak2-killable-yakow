@@ -31,9 +31,9 @@ Makes the peaceful Yakow farm animals killable and protected by Krimzon law. Str
 1. In the **OpenGOAL Launcher**, navigate to **Settings ▸ Mods ▸ Add Custom Mod Source**.
 2. Paste this catalog URL:
    ```text
-   https://raw.githubusercontent.com/whozghiar/jak-project/jak2/features/yakow_killable/index.json
+   https://raw.githubusercontent.com/whozghiar/jak2-mod-killable-yakow/main/index.json
    ```
-3. Go to the **Mods** tab, locate **Interactive & Vulnerable Yakows**, and click **Install**.
+3. Go to the **Mods** tab, locate **Killable Yakow**, and click **Install**.
 4. Select your clean PS2 Jak II ISO when prompted. The launcher will automatically extract assets and launch the game!
 
 ### Option B — Manual Installation from GitHub Releases

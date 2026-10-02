@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/OpenGOAL-Mod-blue.svg" alt="OpenGOAL Mod">
   <img src="https://img.shields.io/badge/Game-Jak%202-orange.svg" alt="Game">
-  <img src="https://img.shields.io/badge/Branch-jak2%2Ffeatures%2Fyakow_killable-green.svg" alt="Branch">
   <img src="https://img.shields.io/badge/AI--assisted-Modding-purple.svg" alt="AI Assisted">
 </p>
 
@@ -14,6 +13,9 @@
 ---
 
 # 🇬🇧 English Version
+
+> [!NOTE]
+> This mod moved from the `jak2/features/killable_yakow` branch of [whozghiar/jak-project](https://github.com/whozghiar/jak-project) to this repository. Earlier releases stay installable from the launcher catalog.
 
 ## 📖 Overview
 Makes the peaceful Yakow farm animals killable and protected by Krimzon law. Striking a Yakow immediately triggers a Krimzon Guard alert ("Hands off the cow!"), while defeating it drops dark eco pills with authentic death VFX.

@@ -1,4 +1,4 @@
-# Interactive & Vulnerable Yakows
+# Killable Yakow — Jak 2
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenGOAL-Mod-blue.svg" alt="OpenGOAL Mod">
